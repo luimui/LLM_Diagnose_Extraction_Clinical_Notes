@@ -1,0 +1,244 @@
+Name:  ___                 Unit No:   ___
+ 
+Admission Date:  ___              Discharge Date:   ___
+ 
+Date of Birth:  ___             Sex:   M
+ 
+Service: MEDICINE
+ 
+Allergies: 
+No Known Allergies / Adverse Drug Reactions
+ 
+Attending: ___.
+ 
+Chief Complaint:
+here for PCI
+
+ 
+Major Surgical or Invasive Procedure:
+cardiac catheterization 
+ 
+History of Present Illness:
+Mr. ___ is a ___ year old man with a h/o type 1 diabetes 
+and dyslipidemia who presents from ___ after experiencing chest 
+pain post-op from a bilateral TKA. He has been having occasional 
+exertional angina/SOB x 6 months with walking up 4 flights of 
+steps, described as burning chest pain. He experienced this 
+chest pain during ___ post-op, w/the last episode 1 week ago.
+
+He underwent stress test and experienced chest pressure and ST 
+changes during stress. LVEF was calculated at 65%. He then 
+underwent cardiac cath which showed 80-90% stenosis in the L 
+circumflex b/t ___ and ___ marginal branch and 70% in the mid 
+distal vessel. RCA with 30% stenosis mid vessel. Troponins at 
+the OSH were: 0.09, 0.08, and 0.07. He was transferred to ___ 
+for PCI.
+ 
+On the floor, patient denied current chest pain but endorsed 
+___ bilateral knee pain. 
+ 
+Review of systems:  
+(+) Per HPI and for BPH sx (chronic), constipation, pruritic 
+back rash, and occasional nausea post op. The rest of the 10 
+point ROS is negative. 
+
+ 
+Past Medical History:
+1. CARDIAC RISK FACTORS: Dyslipidemia, Type 1 Diabetes  
+2. CARDIAC HISTORY:  none  
+3. OTHER PAST MEDICAL HISTORY:  
+- arthritis
+- hearing loss
+- appendectomy
+- knee arthroscopies
+- hernia repair x 2
+- tonsillectomy 
+
+ 
+Social History:
+___
+Family History:
+MGM and MGF: early MI
+mother: PVD
+ 
+Physical ___:
+ADMISSION PHYSICAL EXAM:  
+Vitals: T:98.2  BP:125/70  HR:52  RR:16  02 sat:98% RA  
+GENERAL: NAD, awake and alert  
+HEENT: AT/NC, pinpoint pupils, anicteric sclera, pink 
+conjunctiva, good dentition  
+NECK:  supple  
+CARDIAC: RRR, nl S1 S2, no MRG  
+LUNG: CTAB, no rales wheezes or rhonchi, no accessory muscle use 
+ 
+ABDOMEN: +BS, soft, non-tender, non-distended, no guarding 
+EXT: warm and well-perfused, 1+ edema BLE   
+NEURO: alert and oriented, speech appropriate, face symmetrical, 
+strength and sensation grossly normal
+SKIN: erythematous papular rash on back with excoriations, 
+sparing the rest of his body  
+
+DISCHARGE PHYSICAL EXAM:  
+Vitals: 98.1  119/81  73  18  98% RA
+GENERAL: NAD, awake and alert  
+HEENT: AT/NC, anicteric sclera, pink conjunctiva, good dentition 
+ 
+NECK:  supple  
+CARDIAC: RRR, nl S1 S2, no MRG  
+LUNG: CTAB, no rales wheezes or rhonchi, no accessory muscle use 
+ 
+ABDOMEN: +BS, soft, non-tender, non-distended, no guarding 
+EXT: warm and well-perfused, trace edema BLE, bilat knees in ACE 
+wraps, surgical incision c/d/i with no erythema or pus  
+NEURO: alert and oriented, speech appropriate, face symmetrical, 
+strength and sensation grossly normal
+SKIN: erythematous papular rash on back with excoriations, 
+improving
+ 
+Pertinent Results:
+ADMISSION LABS:
+___ 07:00PM   GLUCOSE-71 UREA N-15 CREAT-0.8 SODIUM-137 
+POTASSIUM-4.2 CHLORIDE-98 TOTAL CO2-28 ANION GAP-15
+___ 07:00PM   estGFR-Using this
+___ 07:00PM   CK-MB-3 cTropnT-<0.01
+___ 07:00PM   CALCIUM-9.1 PHOSPHATE-3.8 MAGNESIUM-2.1
+___ 07:00PM   WBC-4.8 RBC-3.38*# HGB-10.4*# HCT-32.2*# 
+MCV-95 MCH-30.9 MCHC-32.4 RDW-12.6
+___ 07:00PM   PLT COUNT-418#
+___ 07:00PM   ___ PTT-32.4 ___
+
+DISCHARGE LABS:
+___ 06:27AM BLOOD WBC-4.0 RBC-3.48* Hgb-10.7* Hct-33.9* 
+MCV-98 MCH-30.8 MCHC-31.6 RDW-12.8 Plt ___
+___ 06:27AM BLOOD Glucose-70 UreaN-15 Creat-0.8 Na-141 
+K-4.4 Cl-104 HCO3-32 AnGap-9
+___ 06:27AM BLOOD Calcium-9.3 Phos-4.5 Mg-2.2
+
+IMAGING:
+
+ECG ___: Sinus rhythm. Left ventricular hypertrophy by 
+voltage. No previous tracing available for comparison.  
+
+CARDIAC CATH ___:
+FINAL DIAGNOSIS:     
+1. Two vessel coronary artery disease with diffuse p-mLAD. 
+2. Referred for elective CABG. 
+
+ 
+Brief Hospital Course:
+___ with history of diabetes, symptoms of exertional angina, who 
+developed chest pain at ___ op after double 
+knee replacement, found to have 80-90% L circumflex stenosis, 
+transferred to ___ for PCI. 
+
+# Unstable Angina: With chest pain post-op, abnormal stress 
+test, and two vessel disease seen during catheterizations. Trop 
+elevated to 0.09 at ___ and subsequently trended 
+down. He had no recurrence of chest pain at ___. No PCI was 
+done during second cath at ___ and recommendation and referral 
+were made  for elective CABG. He was discharged on ASA, statin, 
+plavix, metoprolol. He has CV surgery follow up in ___.
+
+# Post-op status post Bilat knee replacements: Continued pain 
+control with PO dilaudid, requiring up to 26mg per day, 
+particularly after physical therapy. He will continue recovering 
+from knee replacement at home. Per patient's wishes, he was not 
+discharged to rehab. 
+
+# GERD: continued protonix
+
+# Diabetes, Type 1: seen by ___ at ___ who recommended 
+glargine 18 units QHS, 14 units QAM which was continued at ___ 
+along with an insulin sliding scale. 
+
+# Rash: Located on back, papular and erythematous with 
+excorations. Likely eczema. Continued Fluocinolone Acetonide 
+0.025% Cream with prescription for 1 week.  
+
+# BPH: continued tamsulosin
+
+TRANSITIONAL ISSUES:
+- follow up outpatient for further pain control (was discharged 
+with 1 week of narcotics)
+- f/u with CV surgery re: CABG
+
+ 
+Medications on Admission:
+The Preadmission Medication list is accurate and complete.
+1. Aspirin 81 mg PO DAILY 
+2. Fish Oil (Omega 3) 1000 mg PO DAILY 
+3. aspart Unknown Dose
+detemir 22 Units Bedtime
+4. Condrolite (glucosamine sul-chondroitn-msm) ___ mg 
+oral daily 
+
+ 
+Discharge Medications:
+1. Aspirin 81 mg PO DAILY 
+2. Glargine 14 Units Breakfast
+Glargine 18 Units Bedtime
+3. Atorvastatin 80 mg PO DAILY 
+RX *atorvastatin 80 mg 1 tablet(s) by mouth once a day Disp #*30 
+Tablet Refills:*0
+4. Fluocinolone Acetonide 0.025% Cream 1 Appl TP BID Duration: 5 
+Days 
+RX *fluocinolone 0.025 % apply thin layer to rash twice a day 
+Disp #*1 Tube Refills:*0
+5. HYDROmorphone (Dilaudid) ___ mg PO Q3H:PRN pain 
+RX *hydromorphone [Dilaudid] 2 mg ___ tablet(s) by mouth every 
+three (3) hours Disp #*100 Tablet Refills:*0
+6. Lisinopril 5 mg PO DAILY 
+RX *lisinopril 5 mg 1 tablet(s) by mouth once a day Disp #*30 
+Tablet Refills:*0
+7. Polyethylene Glycol 17 g PO DAILY 
+RX *polyethylene glycol 3350 [Miralax] 17 gram 1 packet by mouth 
+once a day Disp #*30 Packet Refills:*0
+8. Senna 8.6 mg PO BID:PRN constipation 
+RX *sennosides [senna] 8.6 mg 1 capsule by mouth twice a day 
+Disp #*60 Capsule Refills:*0
+9. Tamsulosin 0.4 mg PO DAILY 
+RX *tamsulosin 0.4 mg 1 capsule,extended release 24hr(s) by 
+mouth once a day Disp #*30 Capsule Refills:*0
+10. Condrolite (glucosamine sul-chondroitn-msm) ___ mg 
+oral daily 
+11. Fish Oil (Omega 3) 1000 mg PO DAILY 
+12. Metoprolol Succinate XL 75 mg PO DAILY 
+RX *metoprolol succinate 50 mg 1.5 tablet extended release 24 
+hr(s) by mouth once a day Disp #*45 Tablet Refills:*0
+13. Nitroglycerin SL 0.3 mg SL PRN chest pain 
+repeat every 5 min for a maximum of 3 tablets in 15 minutes.  If 
+pain after 3 doses, call MD or 911 
+RX *nitroglycerin 0.4 mg 1 (One) tablet sublingually PRN Disp 
+#*30 Tablet Refills:*0
+
+ 
+Discharge Disposition:
+Home With Service
+ 
+Facility:
+___
+ 
+___:
+non-ST elevation myocardial infarction
+ 
+Discharge Condition:
+Mental Status: Clear and coherent.
+Level of Consciousness: Alert and interactive.
+Activity Status: Ambulatory - requires assistance or aid (walker 
+or cane).
+ 
+Discharge Instructions:
+Dear Mr. ___, 
+
+It was a pleasure taking care of you at ___.  You were 
+admitted to the hospital for a heart attack (NSTEMI).  We did a 
+cardiac catheterization and found diffuse coronary artery 
+disease that will require a bypass surgery to fix.  
+
+We made several medication changes to protect your heart.  
+Please see below for follow up appointments and medication list. 
+ 
+
+ 
+Followup Instructions:
+___

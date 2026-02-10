@@ -1,0 +1,10 @@
+Vectordb/*
+!Vectordb/.gitkeep
+NER_Model/*
+!NER_Model/.gitkeep
+
+all-MiniLM-L6-v2_icd9_full_LD_UMLS_SNOMED_cleaned__dashsplit_noVCodes/
+bert-base-cased/
+
+__pycache__/
+.ipynb_checkpoints/
