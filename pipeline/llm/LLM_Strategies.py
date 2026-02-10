@@ -1,6 +1,6 @@
 import json
-from ..schemas.evidence_objects import DetailedEvidencesList
-from .utils import enrich_detailed_evidence
+from ..schemas.Evidence_Objects import DetailedEvidencesList
+from .Utils import enrich_detailed_evidence
 from ..vectordb.VectorDB import VectorDB
 
 class LLM_Strategies():

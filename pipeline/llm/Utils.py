@@ -1,4 +1,4 @@
-from ..schemas.evidence_objects import DetailedEvidence
+from ..schemas.Evidence_Objects import DetailedEvidence
 
 def enrich_detailed_evidence(detailed_evidence: DetailedEvidence, k_retrieval: dict) -> DetailedEvidence:
     """

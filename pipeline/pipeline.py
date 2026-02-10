@@ -2,7 +2,7 @@ import pandas as pd
 from pipeline.ner.NER_Service import NER_Service
 from pipeline.retrieval.Retrieval_Service import Retrieval_Service
 from pipeline.llm.LLM_Service import LLM_Service
-from pipeline.utils.color_tokens import color_tokens_html
+from pipeline.utils.Color_Tokens import color_tokens_html
 
 
 class Pipeline:
