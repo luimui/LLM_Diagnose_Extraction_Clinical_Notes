@@ -3,7 +3,7 @@ from pipeline.ner.NER_Service import NER_Service
 from pipeline.retrieval.Retrieval_Service import Retrieval_Service
 from pipeline.llm.LLM_Service import LLM_Service
 from pipeline.utils.Color_Tokens import color_tokens_html
-
+import re
 
 class Pipeline:
     def __init__(self, model_name="all-MiniLM-L6-v2", db_path="./VectorDB/all-MiniLM-L6-v2_icd9_full_LD_UMLS_SNOMED_cleaned__dashsplit_noVCodes/"):
@@ -16,9 +16,14 @@ class Pipeline:
     def run(self, text: str, no_trashs: list, ks: list, score_thresholds: list, segmentations: list, window_sizes: list):        
 
         #----------------------NER
-        tokens, predicted_labels, expanded_text_spans = self.ner.NER_run(text=text, no_trashs=no_trashs, segmentations=segmentations, window_sizes=window_sizes)
+        expanded_text_spans = self.ner.NER_run(text=text, no_trashs=no_trashs, segmentations=segmentations, window_sizes=window_sizes)
+
+        tokens, predicted_labels = self.ner.NER_run_for_color_print(text=text, no_trashs=no_trashs, segmentations=segmentations, window_sizes=window_sizes)
         
         html_colored_text = color_tokens_html(tokens, predicted_labels)
+
+        html_colored_text = re.sub(r' (<span[^>]*>)(##)([^<]*</span>)', r'\1\3', html_colored_text)
+
 
         
         #---------------------Retrieval

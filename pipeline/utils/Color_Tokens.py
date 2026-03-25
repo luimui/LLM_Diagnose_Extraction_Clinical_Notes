@@ -10,6 +10,10 @@ def color_tokens_html(tokens: list, labels: list):
     for token, label in zip(tokens, labels):
         if token == "\n":
             output.append("<br>")
+        if token == "[SEP]":
+            continue
+        if token == "[PAD]":
+            continue
         else:
             color = color_map.get(label)
             if color is None:

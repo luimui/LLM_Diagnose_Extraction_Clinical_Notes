@@ -135,6 +135,69 @@ class NER_Model:
     
           
         return tokens_whole_doc, predicted_labels_whole_dock
+
+
+
+
+    def ner_disease_terms_for_color_printing(self, text, model, tokenizer, split="window"):# Tokenizer laden
+    
+        tokens_whole_doc = []
+        predicted_labels_whole_dock = []
+    
+        
+        if split == "window":
+            tokenizer.add_special_tokens({"additional_special_tokens": ["\n"]})
+            model.resize_token_embeddings(len(tokenizer))
+            inputs = tokenizer(    text,
+                                    return_overflowing_tokens=True,
+                                    truncation=True,
+                                    max_length=64,
+                                    padding='max_length',
+                                    stride=0,  # overlap of 64 tokens
+                                    return_tensors='pt',  # optional: return PyTorch tensors
+                                    
+                                )
+    
+            input_ids_chunks = inputs['input_ids']
+            attention_mask_chunks = inputs['attention_mask']
+    
+            # Loop through each chunk
+            for input_ids, attention_mask in zip(input_ids_chunks, attention_mask_chunks):
+                # Move tensors to the correct device (CPU/GPU)
+                input_ids = input_ids.unsqueeze(0).to(self.DEVICE)  # Add batch dimension
+                attention_mask = attention_mask.unsqueeze(0).to(self.DEVICE)
+            
+                # Run the model for prediction
+                with torch.no_grad():
+                    outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+                
+                # Get logits (raw model outputs)
+                logits = outputs.logits
+        
+                # Vorhersagen ermitteln
+                predictions = torch.argmax(logits, dim=2)
+                
+                # Vorhergesagte Labels abrufen        
+                predicted_labels = [self.NER_ID_TO_LABEL[pred.item()] for pred in predictions[0]]
+                
+                # Spezialtokens entfernen ([CLS] und [SEP])
+                tokens = tokenizer.convert_ids_to_tokens(input_ids[0])
+                tokens = tokens[1:-1]
+                predicted_labels = predicted_labels[1:-1]
+        
+                tokens_whole_doc.extend(tokens)
+                predicted_labels_whole_dock.extend(predicted_labels)
+    
+    
+    
+    
+        else:
+            raise ValueError("Missing split method for text, bigger than 512 tokens") 
+        
+    
+    
+          
+        return tokens_whole_doc, predicted_labels_whole_dock
     
     
     def display_colored(self, tokens, labels):

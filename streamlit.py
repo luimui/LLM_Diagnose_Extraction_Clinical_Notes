@@ -31,7 +31,7 @@ pipeline = get_pipeline()
 
 
 # ----------NER+LLM-----------
-st.subheader("Step LLM")
+st.subheader("Input Document")
 with open('data/example_letter.txt', 'r', encoding='utf-8') as file:
             text = file.read()
             letter_input = st.text_area(
@@ -41,7 +41,7 @@ with open('data/example_letter.txt', 'r', encoding='utf-8') as file:
                                         )
             
 
-if st.button("Run LLM"):
+if st.button("Run LLM Pipeline"):
     k_icd_codes_from_expaned_text_spans_full, html_colored_text, evidence_dicts_list_full = pipeline.run(text=letter_input
                                                                                                         , no_trashs=Config.NO_TRASHS
                                                                                                         , ks=Config.KS
@@ -51,21 +51,30 @@ if st.button("Run LLM"):
 
     
 
-    df = pd.DataFrame([flatten_result(evidence) for evidence in evidence_dicts_list_full])
-    df["deduction"] = df["deduction"].str.lower().map({"true": True, "false": False})
-    df = df.sort_values(by="deduction", ascending=False)
-    df = df.style.apply(color_row, axis=1)
-    df = pd.DataFrame(evidence_dicts_list_full)
-    st.table(df)
-        
-    
-    st.markdown(html_colored_text, unsafe_allow_html=True)
 
+        
+    st.subheader("Input Document: Natural Entity Recognition BIO scheme")
+    st.markdown(
+    """
+    <h4>
+        <span style="color: red;">B-PROBLEM </span>    <span style="color: purple;">I-PROBLEM </span>
+    </h4>
+    """,
+    unsafe_allow_html=True
+)
+    st.markdown('<div style="background-color: #f5f5f5;">' + html_colored_text + '</div>', unsafe_allow_html=True)
+
+    st.subheader("Diagnose Extraction Result")
     df = pd.DataFrame(k_icd_codes_from_expaned_text_spans_full)
     st.table(df)
 
     
-
+    # df = pd.DataFrame([flatten_result(evidence) for evidence in evidence_dicts_list_full])
+    # df["deduction"] = df["deduction"].str.lower().map({"true": True, "false": False})
+    # df = df.sort_values(by="deduction", ascending=False)
+    # df = df.style.apply(color_row, axis=1)
+    # df = pd.DataFrame(evidence_dicts_list_full)
+    # st.table(df)
 
 
 

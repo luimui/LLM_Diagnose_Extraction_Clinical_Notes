@@ -57,6 +57,17 @@ class NER_Cleaning:
         return self.tokenizer, tokens, predicted_labels, text, diag_codes_original#ner_labels, ner_text_spans, expanded_text_spans, text, diag_codes_original
 
 
+    def load_and_ner_for_color_print(self, hadm_id, text, SPLITS_FOLDER, HADM_ID_PARQUET_LOCATIONS, window_size=0, split="window"):
+
+        diag_codes_original = ['no_diagnoses_provided']    
+        
+        
+        tokens, predicted_labels = self.ner_model.ner_disease_terms_for_color_printing(model=self.model, tokenizer=self.tokenizer, text=text, split=split)
+            
+        #ner_labels, ner_text_spans, expanded_text_spans = te.expand_text_spans_claude(tokens, predicted_labels, self.tokenizer, window_size=window_size)
+
+           
+        return self.tokenizer, tokens, predicted_labels, text, diag_codes_original#ner_labels, ner_text_spans, expanded_text_spans, text, diag_codes_original
 
 
     
