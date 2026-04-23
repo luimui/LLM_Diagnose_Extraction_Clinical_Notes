@@ -12,3 +12,5 @@ conda activate ClinicalNotesEnvironment
 pip install -r requirements.txt
 streamlit run streamlit.py 
 ```
+
+You find it in the browser: http://localhost:8501/
