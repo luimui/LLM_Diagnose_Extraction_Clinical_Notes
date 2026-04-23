@@ -6,10 +6,10 @@ Clone the Repo locally,
 
 This is tested in a Miniconda environment Python=3.9.25:
 
-`conda create ClinicalNotesEnvironment python=3.9.25`
+```conda create ClinicalNotesEnvironment python=3.9.25
 
-`conda activate ClinicalNotesEnvironment`
+conda activate ClinicalNotesEnvironment
 
-`pip install -r requirements.txt`
+pip install -r requirements.txt
 
-`streamlit run streamlit.py`
+streamlit run streamlit.py
