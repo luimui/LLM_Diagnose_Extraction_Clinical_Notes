@@ -3,7 +3,7 @@ from ..embeddings.Embeddings import EmbeddingFunctionGPU
 
 
 class VectorDB:
-    def __init__(self, model_name: str = "all-MiniLM-L6-v2", db_path: str = "../../VectorDB/all-MiniLM-L6-v2_icd9_full_LD_UMLS_SNOMED_cleaned__dashsplit_noVCodes/"):
+    def __init__(self, model_name: str = "all-MiniLM-L6-v2", db_path: str = "./VectorDB/all-MiniLM-L6-v2_icd9_full_LD_UMLS_SNOMED_cleaned__dashsplit_noVCodes/"):
         
         self.collection_name = self._clean_name(model_name)
         
@@ -34,6 +34,8 @@ class VectorDB:
                                 persist_directory=self.db_path,
                                 collection_metadata={"hnsw:space": "cosine"}
                             )
+
+        client = vector_store._client
 
         return vector_store
 

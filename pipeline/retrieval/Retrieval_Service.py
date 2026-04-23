@@ -21,14 +21,14 @@ class Retrieval_Service:
             doc_list = [(x, y, expanded_text_span) for (x, y) in doc_list]
             doc_list_total.append(doc_list)
 
-        
+                   
         for score_threshold in score_thresholds:
 
             
             for k in ks:     
                 retrievals_k = {}
                 for doc_list in doc_list_total:
-                    doc_list_k = [(doc, score, expanded_text_span) for doc, score, expanded_text_span in doc_list if score >= score_threshold]                        
+                    doc_list_k = [(doc, score, expanded_text_span) for doc, score, expanded_text_span in doc_list if (1 - score) >= score_threshold]                        
                     doc_list_k = doc_list_k[:k]
                    
                     
